@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WWHWZSKL');</script>
+<!-- End Google Tag Manager -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Learn Overseas </title>
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<!-- custom CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/reset.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<link rel="stylesheet" href="css/carousel/owl.carousel.min.css">
+<link rel="stylesheet" href="css/carousel/owl.theme.default.min.css">
+<link rel="stylesheet" href="css/easy-responsive-tabs.css">
+<link href="css/jquery.fancybox.min.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
+<link rel="stylesheet" href="css/pro.css">
+<link rel="stylesheet" href="js/form/validationEngine.jquery.css">
+<link rel="stylesheet" href="css/easy-responsive-tabs.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="webfonts/stylesheet.css">
+<link rel="stylesheet" href="fonts/fonticon/css/font-awesome.min.css">
+<script src="js/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+url = new URL(window.location.href);
+var campaign_name = url.searchParams.get("utm_campaign");
+var keyword = url.searchParams.get("utm_keyword");
+var source = url.searchParams.get("utm_source");
+var network = url.searchParams.get("utm_network");
+var utm_medium = url.searchParams.get("utm_medium");
+
+document.getElementById("campaign_url").value = window.location.href;
+document.getElementById("campaign_name").value = campaign_name;
+document.getElementById("keyword").value = keyword;
+document.getElementById("sourceId").value = source;
+document.getElementById("network").value = network;
+document.getElementById("utm_medium").value = utm_medium;
+
+if (document.referrer)
+{
+var myReferer = document.referrer;
+document.getElementById("referrerid").value = myReferer;
+}
+else
+{
+document.getElementById("referrerid").value = 'None';
+}
+});
+</script>
+<script>
+  var code = Math.floor(100000 + Math.random() * 900000);
+jQuery(document).ready(function()
+{
+  jQuery("#phone").change(function()
+  {
+    var phone = jQuery("#phone").val();
+    
+    //alert(code);
+      $.ajax({
+            type : 'POST',
+            url : 'smsCode.php',
+      crossDomain: true,
+      dataType: 'json',
+      
+            data: {
+                phone : phone,
+        code : code
+            },
+            success : function(data){
+        
+            }
+        });
+    
+    jQuery(".otp").show('fast');
+   });
+});
+
+function verify_mobile()
+{
+
+  var otpField = jQuery('#otp').val();
+  //alert('code='+code);
+//alert('otp='+otpField);
+  
+  if(otpField == code)
+  {
+    return true;
+  }
+  if(otpField != code)
+  {
+    alert('OTP did not match');
+    return false;
+  }
+}
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WWHWZSKL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header id="header" class="header">
+<div class="header-absolute zIndex2 w-100">
+<div class="container">
+<div class="top-head py-2">
+<div class="row align-items-center">
+<div class="col-lg-6 col-md-6 col-6 logo"> 
+<img class="img-fluid" src="images/logo-r.png" alt="">
+</div>
+
+<div class="col-lg-6 col-6 col-6 mobile__dv text-end"><a class="shadow" href="tel:+916366953866"><span><i class="far fa-phone-volume"></i></span>+91-6366953866</a></div>
+
+
+</div>
+</div>
+</div>
+</div>
+</header>
+
+ <!--<div class="mobile"> 
+  <img class="img-fluid" src="images/banner.jpg" alt="" >
+</div>-->
+
+<!-- Hero section start (Slider) -->
+<section class="hero-sectionn position-relative">
+<div class="bc-img01">
+<!--<div class="vishouse-absolute desktop">  
+<img class="img-fluid" src="images/vishouse.png" alt="">
+</div>-->
+<div class="container">
+<div class="row">
+<div class="col-lg-5 col-md-12 leftsec_content d-flex align-content-center flex-wrap justify-content-start">
+<div class="dsu-addmission">
+<div class="bannerContent">
+
+ <h2 class="wow fadeInUp"><span>Your Success Journey   
+<em>Starts With Us! </em> </span>
+
+<strong class="desktop">Learn Overseas Can Fulfil Your International Education Dream By  Finding The Best Fit For You At Top Universities and Colleges  Around The World.</strong>
+
+<b class="blink_effect_01">Jan 2025 Intake</b>
+</h2>
+
+
+ 
+
+
+
+
+</div>
+</div>
+</div>
+
+
+
+<div class="dsu-intro col-lg-7 col-md-12 formsec">
+<div id="applyBox" class="wow flipInY" style="visibility: visible; animation-name: flipInY;">
+<div class="applyBox">
+<div class="dsu-form bggradient-yellow shadow">
+<div class="frmBg">
+<h4 class="font-weight-500 fsize24">Contact Us Today!</h4>
+</div>
+<div class="contact_fild">
+<form id="formID" name="contact-form" method="post" action="https://uniproeducation.com/lp/learn-overseas-common-2024-save.php">
+<div class="formIDfid">
+<div class="contact-fild-box">
+<div class="form-group">
+<input name="name" class="form-control validate[required, custom[name]]" placeholder="Name*" data-errormessage-value-missing="*Name is required!" type="text">
+</div>
+</div>
+
+<div class="contact-fild-box">
+<div class="form-group">
+<input class="form-control" id="phone" type="tel" maxlength="10" placeholder="Mobile*" name="phone" pattern="[7-9]{1}[0-9]{9}" title="Phone number with 7-9 and remaing 9 digit with 0-9" required="">
+</div>
+</div>
+
+<div class="contact-fild-box otp" style="display:none;">
+<div class="form-group">
+<input name="otp" id="otp" class="form-control validate[required]" placeholder="OTP*" data-errormessage-value-missing="* OTP is required!" maxlength="6" required="" type="tel">
+</div>
+</div>
+
+<div class="contact-fild-box">
+<div class="form-group">
+<input name="email" class="form-control validate[required, custom[email]]" placeholder="Email*" maxlength="30" data-errormessage-value-missing="* Email is required!" type="text">
+</div>
+</div>
+
+
+
+
+<div class="contact-fild-box">
+<div class="form-group">
+<select name="state" id="stateid" onchange="select_state_func()" data-errormessage-value-missing="* State is required!" class="form-control form-select formbg1 validate[required]">
+  <option value="">Select State*</option>
+ <option value="1">Andaman &amp; Nicobar Islands</option>
+  <option value="2">Andhra Pradesh</option>
+  <option value="3">Arunachal Pradesh</option>
+  <option value="4">Assam</option>
+  <option value="5">Bihar</option>
+  <option value="6">Chandigarh</option>
+  <option value="7">Chhattisgarh</option>
+  <option value="32">Dadra &amp; Nagar Haveli</option>
+  <option value="33">Daman &amp; Diu</option>
+  <option value="8">Delhi &amp; NCR</option>
+  <option value="9">Goa</option>
+  <option value="10">Gujarat</option>
+  <option value="11">Haryana</option>
+  <option value="12">Himachal Pradesh</option>
+  <option value="13">Jammu and Kashmir</option>
+  <option value="14">Jharkhand</option>
+  <option value="15">Karnataka</option>
+  <option value="16">Kerala</option>
+  <option value="17">Madhya Pradesh</option>
+  <option value="18">Maharashtra</option>
+  <option value="19">Manipur</option>
+  <option value="20">Meghalaya</option>
+  <option value="21">Mizoram</option>
+  <option value="22">Nagaland</option>
+  <option value="23">Orissa</option>
+  <option value="24">Pondicherry</option>
+  <option value="25">Punjab</option>
+  <option value="26">Rajasthan</option>
+  <option value="34">Sikkim</option>
+  <option value="27">Tamil Nadu</option>
+  <option value="36">Telangana</option>
+  <option value="28">Tripura</option>
+  <option value="29">Uttar Pradesh</option>
+  <option value="30">Uttarakhand</option>
+  <option value="31">West Bengal</option>
+</select>
+</div>
+</div>
+
+
+<div class="contact-fild-box">
+<div class="form-group">
+<p id="citypid" style="">
+  <select name="city" id="cityid" data-errormessage-value-missing="* City is required!" class="form-select formbg1 validate[required]">
+    <option value="">Select City* </option>
+  </select>
+</p>
+</div>
+</div>
+
+<div class="contact-fild-box">
+<div class="form-group">
+<select class="form-control form-select validate[required]" data-errormessage-value-missing="* Desired Destination is required!" name="destination">
+<option selected="selected" value="">Desired Destination*</option>
+<option value="United States">United States</option>
+<option value="United Kingdom">United Kingdom</option>
+<option value="Canada">Canada</option>
+<option value="Australia">Australia</option>
+<option value="France">France</option>
+<option value="New Zealand">New Zealand</option>
+<option value="Germany">Germany</option>
+<option value="UAE">UAE</option>
+<option value="Ireland">Ireland</option>
+<option value="Spain">Spain</option>
+<option value="Italy">Italy</option>
+<option value="Switzerland">Switzerland</option>
+<option value="Singapore">Singapore</option>
+<option value="Malaysia">Malaysia</option>
+<option value="Sweden">Sweden</option>
+<option value="Netherlands">Netherlands</option>
+<option value="Hungary">Hungary</option>
+<option value="Finland">Finland</option>
+<option value="Malta">Malta</option>
+<option value="Poland">Poland</option>
+<option value="Czech Republic">Czech Republic</option>
+<option value="Cyprus">Cyprus</option>
+<option value="Morocco">Morocco</option>
+<option value="Austria">Austria</option>
+<option value="Vietnam">Vietnam</option>
+<option value="Japan">Japan</option>
+<option value="Denmark">Denmark</option>
+<option value="Columbia">Columbia</option>
+<option value="Croatia">Croatia</option>
+<option value="Lithuania">Lithuania</option>
+<option value="Georgia">Georgia</option>
+<option value="Latvia">Latvia</option>
+<option value="Mauritius">Mauritius</option>
+<option value="Portugal">Portugal</option>
+<option value="Andorra">Andorra</option>
+<option value="Belgium">Belgium</option>
+<option value="Romania">Romania</option>
+<option value="Greece">Greece</option>
+<option value="Turkey">Turkey</option>
+<option value="China">China</option>
+
+</select>
+</div>
+</div>
+
+<div class="contact-fild-box">
+<div class="form-group">
+<select class="form-control form-select validate[required]" data-errormessage-value-missing="* Program is required!" name="program">
+<option selected="selected" value="">Program of Interest*</option>
+<option value="UG">UG</option>
+<option value="PG">PG</option>
+</select>
+</div>
+</div>
+
+
+
+
+
+
+<div class="contact-fild-box text-center mt-3">
+<div class="form-group">
+<input type="hidden" id="referrerid" name="referrer_name" value="None">
+<input type="hidden" id="keyword" name="keyword" value="">
+<input type="hidden" id="network" name="network" value="">
+<input type="hidden" id="campaign_url" name="campaign_url" value="">
+<input type="hidden" id="campaign_name" name="campaign_name" value="">
+<input id="utm_medium" name="utm_medium" type="hidden" value="">  
+<input type="hidden" id="sourceId" name="source" value="">
+<input type="hidden" name="orderid" value="1024">
+<input type="hidden" name="sitename" value="LearnOverseasCommon2024">
+<button id="btnSubmit" type="submit" onClick="return verify_mobile();" class="btn btn_submit">SUBMIT</button>
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="mobile-discr mobile">
+<strong>Learn Overseas Can Fulfil Your International Education Dream By  Finding The Best Fit For You At Top Universities and Colleges  Around The World.</strong>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Hero section end (Slider) --> 
+
+
+
+<section class="exellence position-relative pb-5">
+<div class="container">
+<div class="row">
+<div class="exel__section position-relative">
+<div class="gloss">
+<div class="owl-carousel owl-theme text-center" id="exellence-slider">
+<div class="articlesd__item bord">
+
+
+
+<h5 class="counting-number" data-digit="15" data-duration="4690"></h5>
+<span class="plused position-relative zIndex2">+ Years</span>
+<p>Excellence</p>
+</div>
+
+<div class="articlesd__item bord">
+
+<h5 class="counting-number" data-digit="1300" data-duration="4690"></h5>
+<span class="plused position-relative zIndex2">+</span>
+<p>Partner Institutionst</p>
+</div>
+
+<div class="articlesd__item bord">
+
+<h5 class="counting-number" data-digit="2" data-duration="4690"></h5>
+<span class="plused position-relative zIndex2">+ Million</span>
+<p>Lives Transformed</p>
+</div>
+
+<div class="articlesd__item bord">
+
+<h5 class="counting-number" data-digit="25" data-duration="4690"></h5>
+<span class="plused position-relative zIndex2">+ Million</span>
+<p>Financial Aid Secured</p>
+</div>
+
+
+
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+
+<section class="position-relative courses-section py-5" >
+  <div class="container">
+      <div class="widget-title text-center pb-4"> 
+  <h3 class="wow fadeInUp font-weight-700" data-wow-delay="0ms" style="visibility: visible; animation-delay: 0ms; animation-name: fadeInUp;">Choose from our <span>Top Study Destinations</span></h3>
+<p>Selecting the perfect pathway for your international journey is a pivotal choice that can shape the course of your future.</p>
+</div>
+
+      <div class="owl-carousel owl-theme " id="life-slider">
+          <div class="life-item position-relative wow fadeInUp" data-wow-delay="0ms">
+              <div class="life_thumb">
+                  
+                <div class="image-box rounded position-relative">
+                <figure class="image">
+                <a><img class="img-fluid" src="images/stories/1.jpg" alt=""/></a>
+                </figure>
+
+                
+                </div>
+				<div class="academic_title">
+                  <h4><img class="img-fluid" src="images/stories/1-flag.png" alt=""/> Germany</h4>
+                </div>
+              
+              </div>
+          </div>
+		  
+		  <div class="life-item position-relative wow fadeInUp" data-wow-delay="600ms">
+              <div class="life_thumb">
+                  
+                <div class="image-box rounded position-relative">
+                <figure class="image">
+                <a><img class="img-fluid" src="images/stories/2.jpg" alt=""/></a>
+                </figure>
+
+                
+                </div>
+				<div class="academic_title">
+                  <h4><img class="img-fluid" src="images/stories/2-flag.png" alt=""/> UK</h4>
+				  
+                </div>
+              
+              </div>
+          </div>
+		  
+		  
+		  <div class="life-item position-relative wow fadeInUp" data-wow-delay="600ms">
+              <div class="life_thumb">
+                  
+                <div class="image-box rounded position-relative">
+                <figure class="image">
+                <a><img class="img-fluid" src="images/stories/3.jpg" alt=""/></a>
+                </figure>
+
+                
+                </div>
+				<div class="academic_title">
+                   <h4><img class="img-fluid" src="images/stories/3-flag.png" alt=""/> New Zealand</h4>
+                </div>
+              
+              </div>
+          </div>
+		  
+		  
+		  <div class="life-item position-relative wow fadeInUp" data-wow-delay="300ms">
+              <div class="life_thumb">
+                  
+                <div class="image-box rounded position-relative">
+                <figure class="image">
+                <a><img class="img-fluid" src="images/stories/4.jpg" alt=""/></a>
+                </figure>
+
+                
+                </div>
+				<div class="academic_title">
+                  <h4><img class="img-fluid" src="images/stories/4-flag.png" alt=""/> Australia</h4>
+                </div>
+              
+              </div>
+          </div>
+
+           <div class="life-item position-relative wow fadeInUp" data-wow-delay="300ms">
+              <div class="life_thumb">
+                  
+                <div class="image-box rounded position-relative">
+                <figure class="image">
+                <a><img class="img-fluid" src="images/stories/5.jpg" alt=""/></a>
+                </figure>
+
+                
+                </div>
+				<div class="academic_title">
+                   <h4><img class="img-fluid" src="images/stories/5-flag.png" alt=""/> USA</h4>
+                </div>
+              
+              </div>
+          </div>
+
+          <div class="life-item position-relative wow fadeInUp" data-wow-delay="600ms">
+              <div class="life_thumb">
+                  
+                <div class="image-box rounded position-relative">
+                <figure class="image">
+                <a><img class="img-fluid" src="images/stories/6.jpg" alt=""/></a>
+                </figure>
+
+                
+                </div>
+				<div class="academic_title">
+                   <h4><img class="img-fluid" src="images/stories/6-flag.png" alt=""/> Canada</h4>
+                </div>
+              
+              </div>
+		   </div>
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		   
+      </div>
+  </div>
+</section>
+
+
+<section class="collab_section position-relative">
+      <div class="container">
+        <div class="widget-title text-center"> 
+  <h3 class="wow fadeInUp font-weight-700 text-white" data-wow-delay="0ms" style="visibility: visible; animation-delay: 0ms; animation-name: fadeInUp;">Top Participating Universities & <span>Institutions</span></h3>
+</div>
+        <div class="collab__title">
+		<div class="carousel-outer">
+<div class="owl-carousel owl-theme wow fadeInUp" id="place-slider">
+  <div class="collab_item">
+    <div class="collabs_logo">
+      <div class="collabs_mb">
+      <img class="img-fluid" src="images/partner/1.jpg" alt=""/>
+    </div>   
+    </div>
+  </div>
+
+<div class="collab_item">
+    <div class="collabs_logo">
+      <div class="collabs_mb">
+      <img class="img-fluid" src="images/partner/2.jpg" alt=""/>
+    </div>    
+    </div>
+  </div>
+
+  <div class="collab_item">
+    <div class="collabs_logo">
+      <div class="collabs_mb">
+      <img class="img-fluid" src="images/partner/1.webp" alt=""/>
+    </div>
+    </div>
+  </div>
+  
+  
+  
+  <div class="collab_item">
+    <div class="collabs_logo">
+      <div class="collabs_mb">
+      <img class="img-fluid" src="images/partner/2.webp" alt=""/>
+    </div>
+    </div>
+  </div>
+  
+  
+  <div class="collab_item">
+    <div class="collabs_logo">
+      <div class="collabs_mb">
+      <img class="img-fluid" src="images/partner/3.jpg" alt=""/>
+    </div>
+    </div>
+  </div>
+  
+  <div class="collab_item">
+    <div class="collabs_logo">
+      <div class="collabs_mb">
+      <img class="img-fluid" src="images/partner/4.jpg" alt=""/>
+    </div>
+    </div>
+  </div>
+  
+  <div class="collab_item">
+    <div class="collabs_logo">
+      <div class="collabs_mb">
+      <img class="img-fluid" src="images/partner/5.jpg" alt=""/>
+    </div>
+    </div>
+  </div>
+  
+  <div class="collab_item">
+    <div class="collabs_logo">
+      <div class="collabs_mb">
+      <img class="img-fluid" src="images/partner/6.jpg" alt=""/>
+    </div>
+    </div>
+  </div>
+  
+  <div class="collab_item">
+    <div class="collabs_logo">
+      <div class="collabs_mb">
+      <img class="img-fluid" src="images/partner/7.jpg" alt=""/>
+    </div>
+    </div>
+  </div>
+  
+  <div class="collab_item">
+    <div class="collabs_logo">
+      <div class="collabs_mb">
+      <img class="img-fluid" src="images/partner/8.jpg" alt=""/>
+    </div>
+    </div>
+  </div>
+  
+  <div class="collab_item">
+    <div class="collabs_logo">
+      <div class="collabs_mb">
+      <img class="img-fluid" src="images/partner/9.jpg" alt=""/>
+    </div>
+    </div>
+  </div>
+  
+  
+  <div class="collab_item">
+    <div class="collabs_logo">
+      <div class="collabs_mb">
+      <img class="img-fluid" src="images/partner/10.jpg" alt=""/>
+    </div>
+    </div>
+  </div>
+  
+  <div class="collab_item">
+    <div class="collabs_logo">
+      <div class="collabs_mb">
+      <img class="img-fluid" src="images/partner/11.jpg" alt=""/>
+    </div>
+    </div>
+  </div>
+  
+  <div class="collab_item">
+    <div class="collabs_logo">
+      <div class="collabs_mb">
+      <img class="img-fluid" src="images/partner/12.jpg" alt=""/>
+    </div>
+    </div>
+  </div>
+    
+  
+</div>
+</div>
+</div>
+      </div>
+    </section>
+
+<section class="certificate__section bg-ht py-5 position-relative">
+<div class="container">
+<div class="widget-title text-center pb-2"> 
+  <h3 class="wow fadeInUp font-weight-700" data-wow-delay="0ms" style="visibility: visible; animation-delay: 0ms; animation-name: fadeInUp;">About <span>Learn Overseas</span></h3>
+</div> 
+
+<div class="row">
+<div class="col-lg-12 col-md-12 mt-4 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+<div class="peraa">
+<p>Your ultimate destination for international education. Our platform merges personalized consultancy with online efficiency, simplifying the journey to studying abroad. Whether you're pursuing undergrad or advanced degrees, we provide tailored solutions driven by AI and data analytics. With us, you'll receive personalized guidance while enjoying the convenience of an expansive online resource base. From counseling to Visa Assistance, we're with you every step of the way. Join us and elevate your educational journey today!</p>
+</div>
+</div>
+
+<div class="col-lg-5 col-md-12 certificateThumb mt-4 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+<div class="certificate_absolute">
+<img class="img-fluid" src="images/about-model.webp" alt="">
+</div>
+</div>
+<div class="col-lg-7 col-md-12 mt-4 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+<div class="addit">
+<div class="container">
+<div class="row">
+<div class="col-lg-6 col-md-12 mt-4 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+<div class="teched">
+<span><img class="img-fluid" src="images/tech1.png" alt=""/> Tech-Driven Solutions</span>
+<p>Utilizing advanced CRM systems, AI-driven counseling, and virtual reality campus tours to enhance student engagement and streamline processes.</p>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 mt-4 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+<div class="teched">
+<span><img class="img-fluid" src="images/tech2.png" alt=""/> Local Expertise</span>
+<p>Deep understanding of local markets in India and Nigeria, with established offices and trained counselors who speak the language and understand the culture</p>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 mt-4 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+<div class="teched">
+<span><img class="img-fluid" src="images/tech3.png" alt=""/> Holistic Support</span>
+<p>Beyond academics, we support students in their overall well-being, from counseling to post admission support.</p>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 mt-4 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+<div class="teched">
+<span><img class="img-fluid" src="images/tech4.png" alt=""/> Sustainable Partnership</span>
+<p>Long-term collaborations focusing on student's growth & partnership.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="ranki py-5 position-relative">
+<div class="container-fluid">
+<div class="row">
+<div class="widget-title text-center"> 
+  <h3 class="wow fadeInUp font-weight-700 text-white" data-wow-delay="0ms" style="visibility: visible; animation-delay: 0ms; animation-name: fadeInUp;">Why <span>Learn Overseas ?</span></h3>
+</div>
+
+<div class="high__section position-relative">
+
+<div class="glased">
+<div class="owl-carousel owl-theme text-center" id="articles-slider">
+<div class="artic">
+<div class="articles__item shadow">
+<figure><img class="img-fluid" src="images/rights.png" alt=""/></figure>
+<p>Tailored Study Plans </p>
+</div>
+
+<!--<div class="articles__item shadow">
+<figure><img class="img-fluid" src="images/rights.png" alt=""/></figure>
+<p>Global career services </p>
+</div>-->
+<div class="articles__item shadow">
+<figure><img class="img-fluid" src="images/rights.png" alt=""/></figure>
+<p>High success rate</p>
+</div>
+</div>
+
+<div class="artic">
+<div class="articles__item shadow">
+<figure><img class="img-fluid" src="images/rights.png" alt=""/></figure>
+<p>Exclusive global partnerships </p>
+</div>
+
+<div class="articles__item shadow">
+<figure><img class="img-fluid" src="images/rights.png" alt=""/></figure>
+<p>Alumni mentorship program </p>
+</div>
+</div>
+
+<div class="artic">
+<div class="articles__item shadow">
+<figure><img class="img-fluid" src="images/rights.png" alt=""/></figure>
+<p>Innovative technology platform </p>
+</div>
+
+<div class="articles__item shadow">
+<figure><img class="img-fluid" src="images/rights.png" alt=""/></figure>
+<p>Cultural immersion programs</p>
+</div>
+</div>
+
+<div class="artic">
+<div class="articles__item shadow">
+<figure><img class="img-fluid" src="images/rights.png" alt=""/></figure>
+<p>Comprehensive support system </p>
+</div>
+
+<div class="articles__item shadow">
+<figure><img class="img-fluid" src="images/rights.png" alt=""/></figure>
+<p>Student-centric approach</p>
+</div>
+</div>
+
+<div class="artic">
+<div class="articles__item shadow">
+<figure><img class="img-fluid" src="images/rights.png" alt=""/></figure>
+<p>Financial planning assistance</p>
+</div>
+
+</div>
+
+
+
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+<section class="process__section py-5 position-relative">
+<div class="container-fluid">
+
+                      <div class="widget-title text-center"> 
+  <h3 class="wow fadeInUp font-weight-700" data-wow-delay="0ms" style="visibility: visible; animation-delay: 0ms; animation-name: fadeInUp;">Your Journey <span>With Us</span></h3>
+</div>
+                    
+<div class="processed">
+<div class="owl-carousel owl-theme" id="process-slider">
+    <div class="process__item position-relative">
+      <div class="step"><strong>01</strong></div>
+    <div class="align-items-center ">
+    <div class="process__icon bdr-ripple">
+    </div>
+    <div class="process__content">
+<span><img src="images/withus/icon1.png" alt=""></span>
+    <p>
+Initial<br>Counselling</p>
+	
+    </div>
+    </div>
+    </div>
+
+    <div class="process__item position-relative"> 
+    <div class="align-items-center ">
+    <div class="process__content1">
+<p>
+Admission<br>Support</p>
+<span><img src="images/withus/icon2.png" alt=""></span>
+    </div>
+<div class="process__icon bdr-ripple">
+    </div>
+    </div>
+<div class="step1"><strong>02</strong></div>
+    </div>
+
+    <div class="process__item position-relative">
+      <div class="step"><strong>03</strong></div>
+    <div class="align-items-center ">
+    <div class="process__icon bdr-ripple">
+    </div>
+    <div class="process__content">
+<span><img src="images/withus/icon3.png" alt=""></span>
+    <p>Test Preparation Assistance</p>
+	
+    </div>
+    </div>
+    </div>
+
+    <div class="process__item position-relative"> 
+    <div class="align-items-center ">
+    <div class="process__content1">
+<p>Scholarship<br>Assistance</p>
+<span><img src="images/withus/icon4.png" alt=""></span>
+    </div>
+<div class="process__icon bdr-ripple">
+    </div>
+    </div>
+<div class="step1"><strong>04</strong></div>
+    </div>
+
+<div class="process__item position-relative">
+      <div class="step"><strong>05</strong></div>
+    <div class="align-items-center ">
+    <div class="process__icon bdr-ripple">
+    </div>
+    <div class="process__content">
+<span><img src="images/withus/icon5.png" alt=""></span>
+    <p>Education Loan Assistance</p>
+	
+    </div>
+    </div>
+    </div>
+
+<div class="process__item position-relative"> 
+    <div class="align-items-center ">
+    <div class="process__content1">
+<p>Accommodation</p>
+<span><img src="images/withus/icon6.png" alt=""></span>
+    </div>
+<div class="process__icon bdr-ripple">
+    </div>
+    </div>
+<div class="step1"><strong>06</strong></div>
+    </div>
+
+<div class="process__item position-relative">
+      <div class="step"><strong>07</strong></div>
+    <div class="align-items-center ">
+    <div class="process__icon bdr-ripple">
+    </div>
+    <div class="process__content">
+<span><img src="images/withus/icon7.png" alt=""></span>
+    <p>Visa<br>Assistance</p>
+	
+    </div>
+    </div>
+    </div>
+	
+	</div>
+	
+	
+
+    
+
+    
+</div>
+  </div>
+</section>
+
+
+
+
+<section class="sec6 py-5 wow fadeInUp">
+<div class="container">
+<div class="widget-title text-center pb-2"> 
+  <h3 class="wow fadeInUp font-weight-700" data-wow-delay="0ms" style="visibility: visible; animation-delay: 0ms; animation-name: fadeInUp;"><span>TESTIMONIALS</span></h3>
+</div> 
+<div class="student_Bx mt-4">
+<div class="owl-carousel owl-theme" id="student-speak">
+<div class="student_item">
+<div class="student_text">
+<div class="shapes"><i class="fa fa-quote-left"></i></div>
+
+<div class="blah">
+<p>They helped me throughout my undergraduate admissions
+process and made it a breeze for my family and l. The counsellor was
+very goal oriented and ensured I got the best results. My Counsellor
+who was highly efficient, prompt and stayed
+on top of things to make sure my application process and after
+went by smoothly. With their help I was successful in getting into
+the university of my choice.</p>
+</div>
+
+<div class="photo">
+
+
+<h2>Pehal Kothari <img class="img-fluid" src="images/starts.png" alt=""/></h2>
+<span>Purdue University, 2023</span>
+</div>
+
+</div>
+
+</div>
+
+<div class="student_item">
+<div class="student_text">
+<div class="shapes"><i class="fa fa-quote-left"></i></div>
+
+<div class="blah">
+<p>As a confused B-Tech graduate, I approached this consultancy a year back and asked them to assist me through the application process for my masters. Right from providing clarity about the courses to one on one visa interview training, they had my back throughout the process. My counsellor was extremely patient and helpful. Thanks to the entire team for their expertise and help.</p>
+</div>
+
+<div class="photo">
+
+
+<h2>Vishnu Erapalli <img class="img-fluid" src="images/starts.png" alt=""/></h2>
+<span>North Carolina State University, [ NCSU ] 2023</span>
+</div>
+
+</div>
+
+</div>
+
+
+
+<div class="student_item">
+<div class="student_text">
+<div class="shapes"><i class="fa fa-quote-left"></i></div>
+
+<div class="blah">
+<p>We have been associated with this consultancy since January 2020. Inspite of the pandemic, they have been very supportive. They were always available to clarify any doubts even after office hours. The counsellor has dealt the whole process with a lot of patience & dedication. I would like to thank the whole team for giving your guidance to my daughter!!!</p>
+</div>
+
+<div class="photo">
+
+
+<h2>Mukta Reddy <img class="img-fluid" src="images/starts.png" alt=""/></h2>
+<span>Pasons, New york,  2021</span>
+</div>
+
+</div>
+
+</div>
+
+
+<div class="student_item">
+<div class="student_text">
+<div class="shapes"><i class="fa fa-quote-left"></i></div>
+
+<div class="blah">
+<p>This consultancy has really made the process of applying for masters so much easier and approachable. After a number of offers, I decided to go with Cardiff University for Urban design. A huge thanks to the entire team for helping me every step of the way. Truly the best investment I've made with regards to my career so far.</p>
+</div>
+
+<div class="photo">
+
+
+<h2>Ishita Mathur <img class="img-fluid" src="images/starts.png" alt=""/></h2>
+<span>Cardiff University, 2022</span>
+</div>
+
+</div>
+
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+
+
+</section>
+
+	
+	
+<section class="powered__section py-5 position-relative">
+<div class="container">
+
+                      <div class="widget-title text-center"> 
+  <h3 class="wow hellss fadeInUp font-weight-700" data-wow-delay="0ms" style="visibility: visible; animation-delay: 0ms; animation-name: fadeInUp;">Powered <span>By</span></h3>
+</div>
+                    
+<div class="powered-pic">
+<figure><img class="img-fluid" src="images/powered.webp" alt=""/></figure>
+	
+	
+
+    
+
+    
+</div>
+  </div>
+</section>	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+<!-- footer -->
+<footer class="footer position-relative py-3 text-center">
+<div class="container">Copyright © 2024 Learn Overseas. All Rights Reserved.</div>
+</footer>
+<a href="#" id="back-top" title="Back To Top"></a> 
+
+<div class="sideNavi" id="sideNavi" style="">
+<div class="sideNavi-flex">
+ 
+<div class="sideNavi-item">
+  <a class="text-uppercase downbg" href="#applyBox">Get In Touch</a>
+  <!-- <a class="text-uppercase telphone" href="tel:+919225520000">+91-9225520000</a> -->
+</div>
+</div>
+</div>
+<!-- jQuery plugins --> 
+<script src="js/bootstrap.bundle.min.js"></script>  
+<script src="js/wow.min.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+<script src="css/carousel/owl.carousel.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/jquery.inview.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/easy-responsive-tabs.js"></script> 
+<script src="js/scrollIt.min.js"></script>
+<script src="js/custom.js"></script>
+
+
+
+<!-- validationEngine FORM START --> 
+<script src="js/form/jquery.validationEngine.js"></script> 
+<script src="js/form/jquery.validationEngine-en.js"></script> 
+<script src="js/form/script.js"></script> 
+<script src="js/form/state.js"></script>
+<script src="js/form/courseform.js"></script>
+
+
+
+</body>
+
+</html>

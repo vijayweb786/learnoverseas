@@ -1,0 +1,599 @@
+
+@media only screen and (min-width:1920px){
+#header.sticky .header-absolute .mobile__dv .divids ul li strong {font-size: 16px;}
+  .bc-img01 { 
+    height: 68vh; 
+ }  
+
+
+
+.dsu-addmission{margin-top: 0%;}
+
+
+.hero-sectionn .vishouse-absolute {
+    left: 39%;
+}
+  }
+
+@media only screen and (max-width: 1024px){
+.highlight__section .highlight__relative .carousel-outer, .collab_section .carousel-outer, .training_section .carousel-outer {margin-right: 0px; margin-left: 0;}		
+.header .header-absolute .mobile__dv .divids ul li strong {font-size: 18px;}
+#header.sticky .header-absolute .mobile__dv .divids ul li strong {font-size: 16px;}
+.dsu-addmission .bannerContent h2 {font-size: 2.5rem; padding-top:30px;}
+
+.elements__section .flose:after {width: 465px; height: 465px;}
+.section-ranks .rewards_item .ranks_relative .ranks_content_absolute h2 {font-size: 13px;}
+.section-ranks .rewards_item .ranks_relative .ranks_content_absolute p {font-size: 13px;}
+
+#hero.container-fluid, #hero.container-fluid .row { padding-left: 0px; padding-right: 0px; margin-right: 0px; margin-left: 0px;
+ }
+ 
+ .dsu-addmission{margin-top: 5%;}
+ 
+ .dsu-addmission .bannerContent .admi__content-btn {padding: 40px 0 0 0; position:relative; left: 0; bottom: 0;}
+ 
+.high__section .glased .articles__item h5.counting-number {font-size: 2.5rem;}
+.high__section .glased .articles__item span.plused {font-size: 2.5rem;}
+.high__section .glased .articles__item p {font-size: 14px;} 
+ 
+ .bc-img01 {height: 70vh;}
+ .highlight__section .highlight__relative .highlight__top{padding:6px;}
+ 
+ .dsu-intro {top: 1rem;}
+ 
+ .hero-sectionn .vishouse-absolute img {
+    width: 55%;
+}
+
+.dsu-addmission .bannerContent h1 {font-size: 2rem;}
+ 
+ 
+.nav-tabs .nav-item {
+    margin-right: 5px;
+    width: 49.5%;
+}
+
+.courses__section .resp-tabs-list li {min-width: 22.4rem;} 
+#awards-slider.owl-theme .owl-nav [class*=owl-] {position: relative; top: 0px;}
+#awards-slider .owl-prev {right: 0px;}
+
+#place-slider.owl-carousel .owl-nav.disabled, #training-slider2.owl-carousel .owl-nav.disabled {display:block;}
+#place-slider.owl-theme .owl-nav [class*=owl-] {position: relative; top: 0px;}
+#place-slider.owl-theme .owl-nav .owl-prev {left: 0px;}
+, #place-slider.owl-theme .owl-nav .owl-next{right: 0px;}
+
+#training-slider2.owl-theme .owl-nav [class*=owl-] {position: relative; top: 0px;}
+#training-slider2.owl-theme .owl-nav .owl-next, #training-slider2.owl-theme .owl-nav .owl-prev {right: 0;}
+.sec6:after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: -120px;
+    background-image: url(../images/wave.webp);
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 1;
+    /* -webkit-animation: zoomeffect 3.5s infinite; */
+    /* animation: zoomeffect 3.5s infinite; */
+}
+
+}
+
+@media only screen and (max-width: 980px){
+.dsu-addmission .bannerContent hr {
+    width: 25%;
+     margin: 10px auto;
+}
+
+.widget-title p {
+   
+    padding: 10px 15px;
+    width: 100%;
+
+}
+
+
+
+.eligibility__section .partners__item .moled {margin-bottom: 50px;}
+
+.interestedsec {
+    margin-bottom: 10px;
+}
+section.position-relative.py-5.eligibility__section.comprehensive__section {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+section.ranki.py-5 {padding: 20px 0 !important;}
+
+section.position-relative.py-5.awards__section {padding-top: 20px !important; padding-bottom: 10px !important;}
+
+
+.training_section {padding: 20px 0;}
+.courses__Block{padding:0px;}
+section.sec6.py-5.wow.fadeInUp {padding-top: 25px !important; padding-bottom: 20px !important;}
+.collab_section {padding: 20px 0;}
+	
+.header .logo img {width: 20%;}
+.header .header-absolute .mobile__dv .divids ul li strong {font-size: 18px;}
+#header.sticky .header-absolute .logo img {width: 16%;}
+#header.sticky .header-absolute .mobile__dv .divids ul li strong {font-size: 16px;}
+.dsu-addmission .bannerContent h2, .dsu-addmission .bannerContent h2 strong {
+    font-size: 2rem;
+    padding-bottom: 0px;
+    padding-top: 15px;
+}
+.dsu-addmission .admi__content-btn span {
+    font-size: 22px;
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+}
+.dsu-addmission .bannerContent span {padding: 0px; font-size: 35px;}
+.widget-title {text-align: center;}
+.widget-title h3 {font-size: 28px;}
+
+.highlight__section .highlight__relative .highlight__top {padding: 8px;}
+.eligibility__section.comprehensive__section .col-lg-6.col-md-6 {width: 90%; margin: auto;}
+
+
+#highlight-slider.owl-theme .owl-dots { display: block; }
+
+.high__section .glased .articles__item h5.counting-number {font-size: 3.5rem;}
+.high__section .glased .articles__item span.plused {font-size: 3.5rem;}
+.high__section .glased .articles__item p {font-size: 18px;} 
+	
+.dsu-addmission .bannerContent .admi__content-btn {padding:0px; height:auto;}
+
+
+.header .header-absolute .mobile__dv .divids figure {
+    margin-bottom: 0px;
+    text-align: right;
+}
+.header .header-absolute .mobile__dv .divids ul li figure img {
+    width: 60%;
+}
+	
+
+.header .header-absolute .mobile__dv .divids ul li {
+    float: none;
+    margin-left: 0px;
+}
+.header .header-absolute .mobile__dv .divids {
+    position: relative;
+    float: right;
+    padding-top: 0px;
+}
+
+
+.dsu-addmission .bannerContent .admi__content-btn {
+    padding:0 10px; width:auto;
+    /* background-color: rgba(255, 187, 0, 0.95); */
+    display: inline-block; border-radius: 10px;
+}
+
+	
+	
+.desktop { display: none;}
+.mobile { display: block;}
+.dsu-intro { position: relative; width: 100%; top: 0; }
+.logo {
+	text-align: center;
+}
+
+
+
+
+.mobile__dv.text-end {
+	text-align: center !important;
+}
+
+
+.dsu-form { margin-left: auto; margin-right: auto; margin-top: 10px;
+    margin-bottom: 10px; border: 1px solid #eee; float:none; }
+.dsu-addmission { margin-top: 0; padding-top: 0px; text-align: center; width:100%; }
+.bc-img01 { background-image: none; background-attachment: initial; height: auto;}
+
+
+
+.leftsec_content { padding: 0 5px!important; }  
+.dsu-addmission .bannerContent .admi__content-btn strong, .dsu-addmission .bannerContent .prop__content-btn strong {
+    font-size: 1.2rem;
+}
+.hero-sectionn {
+    background: #303030;
+    /* background: rgb(249,160,27); */
+    /* background: linear-gradient(63deg, rgba(61,141,201,1) 0%, rgba(40,120,183,1) 100%); */
+}
+
+.dsu-addmission .bannerContent .admi__content-btn, .dsu-addmission .bannerContent .prop__content-btn {width: 100%;
+	margin: 0 auto !important;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl { max-width: 100% !important;}
+
+
+
+.dsu-addmission .bannerContent:after{display:none;}	
+.contact-fild-box .col-lg-6.col-md-12.pr-1 { padding-bottom: 8px;}	
+
+.dsu-addmission .bannerContent span em {
+    font-style: normal;
+    display: inline-block;
+}
+
+
+  
+#highlight-slider.owl-theme .owl-nav [class*="owl-"] {
+    width: 34px;
+    height: 34px;
+    font-size: 18px;
+    border: solid 2px #d1d1d1;
+    /* border-radius: 100%; */
+    line-height: 34px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 100%;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); */
+}
+#highlight-slider .owl-prev {left: -7px;}
+#highlight-slider .owl-next { right: -7px;}
+
+
+.glori{display:none;}
+.hana__section {
+    padding-bottom: 20px;
+    position: relative;
+  
+	padding:20px 0;
+}
+.hana__relative .hana__item .hana__top span br {
+    display: none;
+}
+
+.process__section .processed {padding: 15px 0;}
+
+section.hana__section.py-5 {
+    padding: 30px 0 !important;
+}
+
+.hana__relative .hana__item .hana__top {min-height: auto; margin: 10px 0;}
+.hana__relative:after {top: 47%;}
+
+.eligibility__section {
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.coosing {top: 0px; height: 100%;}
+.img-container {padding-top: 20px;}
+#awards-slider.owl-theme .owl-nav [class*=owl-]{display:inline-block;}
+
+.awards__section h3.wow.fadeInUp.font-weight-700 {padding-bottom: 0px; }
+
+#place-slider.owl-theme .owl-nav [class*=owl-] {
+    position: relative;
+    top: 20px;
+margin:5px;
+}
+#training-slider2.owl-theme .owl-nav, #place-slider.owl-theme .owl-nav {
+    margin-top: 0;
+    position: relative;
+    top: 0;
+    right: auto;
+}
+section.sec6 .widget-title.text-center.mb-5 {
+    margin-bottom: 0px !important;
+}
+.student_item .student_text {height: auto;}
+.sliderprofile {
+    position: relative;
+    width: 30%;
+}
+.displ.d-flex.align-content-center.align-items-center {
+    display: block !important;
+}
+
+
+}
+
+@media only screen and (max-width: 736px){
+.dsu-addmission .bannerContent span em img.clouds1 {display:none;}	
+
+.header .logo img {width: 23%;}
+#header.sticky .header-absolute .logo img {width: 18%;}
+.header .header-absolute .mobile__dv .divids ul li strong {font-size: 20px;}
+.header .header-absolute .mobile__dv .divids ul li strong img {width: 14%;}
+#header.sticky .header-absolute .mobile__dv .divids ul li strong {font-size: 16px;}
+.dsu-addmission .bannerContent span {font-size: 32px;}
+.dsu-addmission .bannerContent h2, .dsu-addmission .bannerContent h2 strong {font-size: 1.8rem;}
+.dsu-addmission .admi__content-btn span {font-size: 22px; width: 50%; margin: auto; padding: 10px; }
+.highlight__section .highlight__relative .highlight__top {padding: 0px;}
+.eligibility__section .fprogrammeBx { width: 100%;}
+.eligibility__section.comprehensive__section .main-discrip .titled h1 {font-size: 2rem;}
+.fprogrammeBx.mt-2.mb-5 {margin-bottom: 10px !important;}
+.eligibility__section.comprehensive__section .main-discrip .titled h1:after{display:none;}
+.eligibility__section.comprehensive__section .main-discrip .titled span {font-size: 1.2rem; margin-top: 10px;}
+.eligibility__section.comprehensive__section .main-discrip .titled p {padding-top: 10px;}
+.eligibility__section.comprehensive__section .main-discrip .key-feature .whyList h1 {font-size: 2rem;}
+.high__section .glased .articles__item h5.counting-number {font-size: 2.5rem;}
+.high__section .glased .articles__item span.plused {font-size: 2.5rem;}
+.high__section .glased .articles__item p {font-size: 14px;} 
+.sec6:after {background-image:none; background: #ffdb05;}
+
+.student_item .student_text .shapes2{display:none;}
+#student-speak.owl-theme .owl-nav [class*=owl-] {
+    position: relative;
+    top: 50%;
+    font-size: 12px;
+    width: 1.7rem;
+    height: 1.7rem;
+    padding: 7px;
+}
+#student-speak.owl-theme .owl-nav .owl-next {right: 0px;}
+#student-speak.owl-theme .owl-nav .owl-prev {left: 0px;}
+.eligibility__section.comprehensive__section .col-lg-6.col-md-6 {width: 100%; }
+
+.widget-title h3 {font-size: 30px;}
+
+
+section.highlight__section.py-5 {
+    padding: 25px 0 !important;}
+	
+.highlight__section .highlight__relative {padding-top: 10px;}	
+
+
+
+	
+.container { max-width: 100%;}
+.links h6.fsize18 { font-size: 1rem; }
+
+.dsu-addmission {width: 100%;}
+
+
+.dsu-addmission .bannerContent h1 {
+    font-size: 1.5rem;
+}
+.student_item .photo span {
+    font-size: 20px;
+    
+}
+
+#life-slider .owl-prev {
+    left: 0px;
+}
+
+#life-slider .owl-next {
+    right: 0px;
+}
+
+}
+
+@media only screen and (max-width: 667px){
+		
+.header .logo img {width: 26%;}
+#header.sticky .header-absolute .logo img {width: 20%;}
+
+.dsu-addmission .admi__content-btn span {
+   
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+    font-size: 1.4rem;
+padding-top: 5px;
+}
+
+.highlight__section .highlight__relative .highlight__top h5 {font-size: 14px;}
+
+.eligibility__section.comprehensive__section .main-discrip .titled h1 {font-size: 1.6rem;}
+
+.student_item .photo h2 {font-size: 25px;}
+
+
+
+
+
+.section-ranks .rewards_item .ranks_relative .ranks_content_absolute {top: 25%; }
+.sideNavi {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    top: auto; right: auto;
+    left: 0;
+    z-index: 5;
+        -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.sideNavi a {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 12px 2px;
+    color: #fff;
+    background-color: #000000;
+}
+.footer { height: 100px; font-size: 12px; }
+.sideNavi .sideNavi-flex {
+    display: flex;
+}
+.sideNavi-item {
+    width: 100%;
+    display: flex;
+}
+#back-top { display: none !important; }
+
+.header .header-absolute .mobile__dv p{text-align:center; font-size: 16px;}
+
+
+.jumping_ani::after{display:none;}
+
+
+
+.header .header-absolute .mobile__dv span { font-size: 0.7rem; }
+.header .mobile__dv { text-align: center !important; }
+.sliderprofile { display: none;}
+
+}
+
+@media only screen and (max-width: 568px){
+
+.header .logo img {width: 33%;}
+#header.sticky .header-absolute .logo img {width: 27%;}
+.header .header-absolute .mobile__dv .divids ul li strong {font-size: 18px;}
+#header.sticky .header-absolute .mobile__dv .divids ul li strong {font-size: 16px;}
+
+.highlight__section .highlight__relative .highlight__top h5 {font-size: 16px;}
+.eligibility__section .fprogrammeBx { width: 85%;}
+.student_item .photo span {
+    font-size: 16px;
+    
+}
+
+
+
+
+
+
+.widget-title h3 {font-size: 26px; text-align: center;}
+
+	
+.thankMsg h5 strong {
+    font-size: 2.2rem;
+    
+}	
+
+.thankMsg h5 {
+    font-size: 1.1rem;
+}
+
+	
+
+
+}
+
+@media only screen and (max-width: 480px){
+	
+    .dsu-addmission .bannerContent h2 b {
+        
+        margin-top: 0px;
+    }	
+
+.header .header-absolute .mobile__dv .divids ul li strong {font-size: 16px;}
+.header .header-absolute .mobile__dv .divids ul li strong img {width: 14%;}
+.dsu-addmission .bannerContent span em {font-size: 32px;}
+
+
+.dsu-addmission .bannerContent h2, .dsu-addmission .bannerContent h2 strong {font-size: 1.4rem;}
+.dsu-addmission .bannerContent h2 b {font-size: 1.2rem;}
+.dsu-addmission .bannerContent span {font-size: 24px;}
+.dsu-addmission .admi__content-btn span {
+    font-size: 2.6rem;
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+    font-size: 1.4rem;
+}
+
+
+.highlight__section .highlight__relative .highlight__top h5 {font-size: 14px; padding: 5px 0 10px 0;}
+.widget-title h3{font-size: 25px; }	
+
+
+
+
+.highlight__section .highlight__relative .highlight__top {min-height: 182px;}	
+
+
+
+h1, h2, h3, h3, h4, h5, h6 { font-size: 22px; }
+p 
+{ font-size: 14px;
+    line-height: 22px;
+    
+     }
+
+
+
+.header .header-absolute .mobile__dv a {
+    background-color: var(--text-dark);
+    color: #FFF;
+    font-size: .7rem;
+    padding: 8px 30px;
+    padding-right: 20px;
+    border-radius: 2rem;
+    position: relative;
+}
+
+
+.header .header-absolute .mobile__dv a span {
+    background-color: #FCE205;
+    padding: 5px;
+    color: #000;
+    width: 30px;
+    height: 30px;
+    line-height: 22px;
+    border-radius: 30px;
+    display: inline-block;
+    position: absolute;
+    left: -9px;
+    top: 0;
+    font-size: 20px;
+    text-align: center;
+}
+}
+
+@media only screen and (max-width: 414px){
+
+.header .header-absolute .mobile__dv .divids ul li strong {font-size: 14px;}
+#header.sticky .header-absolute .mobile__dv .divids ul li strong {font-size: 12px;}
+#header.sticky .header-absolute .mobile__dv .divids ul li strong img {width: 13%;}
+
+
+.eligibility__section.comprehensive__section .main-discrip .titled h1 {font-size: 1.8rem;}
+.eligibility__section.comprehensive__section .main-discrip .key-feature .whyList h1 {font-size: 1.8rem;} 
+.highlight__section .highlight__relative .highlight__top h5 {font-size: 15px; }
+.dsu-addmission .bannerContent span br {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (max-width: 384px){
+
+
+
+
+
+}
+
+
+@media only screen and (max-width: 360px){
+
+
+
+@media only screen and (max-width: 320px){
+
+}
